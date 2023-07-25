@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar 2</title>
+    </head>
+    <body>
+        <!-- TABLE -->
+        <h1>Table</h1>
+
+        <!-- table row <tr></tr> -->
+        <!-- table data <td></td> -->
+        <!-- atribut table ada (border, cellspacing, cellpading -> gunakan css), colspan, rowspan -->
+        <!-- border untuk menambahkan border di sekitar cell -->
+        <!-- cellspacing untuk memberi jarak antar cell -->
+        <!-- cellpading untuk memberi luas pada cell -->
+
+
+
+        <!-- table simpel -->
+        <table border="1" cellspacing="0" cellpadding="7">
+            <tr>
+                <td>baris 1 kolom 1</td>
+                <td>baris 1 kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2 kolom 1</td>
+                <td>baris 2 kolom 2</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- table complex -->
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Kolom 1</th>
+                    <th>Kolom 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Baris 1</th>
+                    <td>Baris 1 kolom 1</td>
+                    <td>Baris 1 kolom 2</td>
+                </tr>
+                <tr>
+                    <th>Baris 2</th>
+                    <td>Baris 2 kolom 1</td>
+                    <td>Baris 2 kolom 2</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <!-- TABLE MERGING -->
+
+        <!-- rowspan menggabungkan 2 buah sel yg vertical (kolom) -->
+        <!-- colspan menggabungkan 2 buah sel yg horizontal (baris) -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">rowspan 3</td>
+                <td colspan="2">colspan 2</td>
+            </tr>
+            <tr>
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <!-- LATIHAN MERGING -->
+        <table border="1" cellspacing="0" cellpadding="15">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td colspan="2" rowspan="2" align="center">Blank</td>
+                <td>2,4</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,4</td>
+            </tr>
+            <tr>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+            </tr>
+            
+        </table>
+        
+    </body>
+</html>
